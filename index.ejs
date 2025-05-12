@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Gallery</title>
+  <link rel="stylesheet" href="/css/Artstyle.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">Art Gallery</div>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/gallery">Gallery</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to the Art Gallery</h1>
+      <p>Discover stunning artworks from talented artists.</p>
+      <a href="/gallery" class="btn">View Gallery</a>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h2>Featured Artworks</h2>
+    <div class="gallery-grid">
+      <% artworks.forEach(artwork => { %>
+        <div class="art-item">
+          <img src="<%= artwork.imageUrl %>" alt="<%= artwork.title %>">
+          <p><%= artwork.title %> by <%= artwork.artist %></p>
+        </div>
+      <% }) %>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ArtShow. All rights reserved.</p>
+  </footer>
+</body>
+</html>

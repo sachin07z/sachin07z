@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArtShow</title>
+  <link rel="stylesheet" href="Artshow.css">
+  <link rel="stylesheet" href="Artstyle.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">ArtShow</div>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/gallery">Gallery</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to the Art Gallery</h1>
+      <p>Discover stunning artworks from talented artists.</p>
+      <a href="#gallery" class="btn">View Gallery</a>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <div class="art-item">
+        <img src="images/art1.jpg" alt="Art 1">
+        <p>Artwork Title 1</p>
+      </div>
+      <div class="art-item">
+        <img src="images/art2.jpg" alt="Art 2">
+        <p>Artwork Title 2</p>
+      </div>
+      <div class="art-item">
+        <img src="images/art3.jpg" alt="Art 3">
+        <p>Artwork Title 3</p>
+      </div>
+      <!-- Add more art items as needed -->
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are a passionate team dedicated to showcasing the best artworks from around the world. Our mission is to connect artists with art lovers.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Art Gallery. All rights reserved.</p>
+  </footer>
+
+  <script src="Script.js"></script>
+  <script src="Aerwork.js"></script>
+  <script src="cart.js"></script>
+  <script src="aetworkRoutes.js"></script>
+  <script src="cartRoutes.js"></script>
+  <script src="show.js"></script>
+</body>
+</html>

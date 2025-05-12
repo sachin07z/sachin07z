@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="/css/Artstyle.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">Art Gallery</div>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/gallery">Gallery</a></li>
+      <li><a href="/shop">Shop</a></li>
+      <li><a href="/cart">Cart</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="cart">
+    <h2>Your Cart</h2>
+    <div id="cart-items">
+      <!-- Cart items will be dynamically inserted here -->
+    </div>
+    <div class="cart-total">
+      <h3>Total: $<span id="cart-total">0.00</span></h3>
+      <button class="btn" onclick="checkout()">Checkout</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Art Gallery. All rights reserved.</p>
+  </footer>
+
+  <script src="/js/cart.js"></script>
+</body>
+</html>
