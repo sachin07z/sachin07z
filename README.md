@@ -1,4 +1,4 @@
-<h1 align="center">Hi there, I'm < SACHIN KUMAR > 👋</h1>
+<h1 align="center">Hi there, I'm <i>< SACHIN KUMAR ></i> 👋</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00E5FF&center=true&vCenter=true&width=650&lines=Data+Analyst+%7C+Python+%7C+Power+BI;Machine+Learning+Enthusiast;Building+Real-World+Projects;Open+Source+Contributor" />
@@ -24,7 +24,7 @@
 ## 🛠️ Tech Stack  
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,mysql,sqlite,git,github,linux,html,css,js" />
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,mysql,matlab,git,css,html,tailwindcss,sqlite,postgresql,postman,linux&theme=dark&perline=15" />
 </p>
 
 ---
@@ -32,12 +32,12 @@
 ## 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical" height="160"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=radical" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=sachin07z&show_icons=true&theme=radical" height="160"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sachin07z&theme=radical" height="160"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sachin07z&layout=compact&theme=radical" />
 </p>
 
 ---
